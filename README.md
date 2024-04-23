@@ -4,7 +4,7 @@ This project fetches product data from an API and displays it in the browser usi
 
 ## Live Demo
 
-Check out the live demo of this project [here]().
+Check out the live demo of this project [here](https://akshat0012.github.io/marmeto-Coding-assessment-l2/).
 
 ## Overview
 
