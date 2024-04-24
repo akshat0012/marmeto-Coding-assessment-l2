@@ -77,10 +77,13 @@ function addProductCard(parentContainer, productData) {
     div3.appendChild(button);
 
     // Append Div 1, Div 2, and Div 3 to the product card
-    productCard.appendChild(productImage);
-    productCard.appendChild(div1);
-    productCard.appendChild(div2);
-    productCard.appendChild(div3);
+    // Fgrament for Improved Performace
+    const fragment = document.createDocumentFragment();
+    fragment.appendChild(productImage);
+    fragment.appendChild(div1);
+    fragment.appendChild(div2);
+    fragment.appendChild(div3);
+    productCard.appendChild(fragment);
 
     // Append product card to the parent container
     parentContainer.appendChild(productCard);
